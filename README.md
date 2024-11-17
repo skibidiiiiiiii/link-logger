@@ -29,5 +29,5 @@ Les informations des visiteurs (adresse IP, User-Agent, heure de visite) sont en
 
 1. **Clonez le dépôt** :  
    ```bash
-   git clone https://github.com/votre-utilisateur/votre-repo.git  
-   cd votre-repo  
+   git clone https://github.com/skibidiiiiiiii/link-logger
+   cd link-logger  
