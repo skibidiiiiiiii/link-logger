@@ -20,7 +20,9 @@ Les informations des visiteurs (adresse IP, User-Agent, heure de visite) sont en
 - 🏗️ **Flask**  
 - 🌐 **Requests**  
 
-### 🌍 Ngrok  
+### 🌍 Ngrok 
+- ngrok config add-authtoken VOTRE_AUTHTOKEN
+  - ngrok http 8080  
 - **Téléchargez Ngrok** depuis [👉 le site officiel](https://ngrok.com/download) et installez-le sur votre système.
 
 ---
